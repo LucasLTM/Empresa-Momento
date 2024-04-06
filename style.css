@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #000;
+
+}
+
+header {
+
+    background-image: url(img/Background.svg);
+
+}
+
+main {
+
+    justify-content: center;
+
+}
+
+footer {
+
+    justify-content: center;
+}
+
+.header {
+
+    margin-left: 120px;
+    margin-top: 25px;
+}
+
+.header-conteudo2 {
+
+    display: flex;
+
+}
+
+.logo {
+
+    display: flex;
+
+}
+
+.header .texto-logo {
+
+    align-self: center;
+    margin-left: 8px;
+
+}
+
+.barra-navegacao {
+
+    justify-content: right;
+    margin-left: 500px;
+
+}
+
+.barra-navegacao li {
+
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+
+h1 {
+
+    margin-top: 123px;
+    margin-left: 120px;
+    font-size: 48px;
+    margin-bottom: 50px;
+    line-height: normal;
+    font-weight: 400;
+}
+
+#titulo {
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    line-height: 62.98px;
+
+}
+
+.conteudo-header {
+
+    padding: 100px;
+    font-size: 20px;
+    margin-left: 10px;
+    padding-bottom: 140px;
+}
+
+.frase-destaque {
+
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.titulo-main {
+
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+
+}
+
+
+
+.conteudo-main {
+
+    display: flex;
+
+}
+
+.texto-main {
+
+    margin-left: 180px;
+    margin-top: 30px;
+    max-width: 30%;
+    font-size: larger;
+}
+
+.imagem-main {
+
+    margin-left: 200px;
+    padding-bottom: 100px;
+}
+
+.titulo-footer {
+
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.conteudo-footer {
+
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.formulario-footer {
+
+    margin-left: 200px;
+
+}
+
+.form label p {
+
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+input {
+
+    max-width: 100%;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 2px solid #BAB7C9;
+    ;
+    background: #E7E7E7;
+
+}
+
+.imagem-footer {
+
+    margin-left: 250px;
+}
